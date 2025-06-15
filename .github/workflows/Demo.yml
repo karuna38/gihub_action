@@ -1,0 +1,10 @@
+name:hello-world
+ on:
+  window-dispatch
+jobs:
+ my_job:
+  run-on:ubuntu-latest
+steps:
+ -name:my-step
+  run:echo "hellow world!"
+  
